@@ -126,18 +126,5 @@ airflow_project/
 │
 └── README.md
 
-How to Run the Project
-
-Place the DAG file inside the Airflow dags/ directory
-
-Ensure tolldata.tgz exists in the specified working directory
-
-Start Airflow services:
-
-airflow scheduler
-airflow webserver
 
 
-Enable the DAG from the Airflow UI
-
-Trigger the DAG manually or wait for the scheduled run
